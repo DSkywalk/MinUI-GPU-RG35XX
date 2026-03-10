@@ -12,14 +12,14 @@ The most common point of failure in retro handhelds is SD card corruption. This 
 
 * Read-Only System Architecture: The entire MinUI system and core binaries have been moved to /opt. The goal is to keep the OS partition strictly Read-Only (WIP), leaving the ROMs partition exclusively for your games, saves and user profile.
 * Aggressive /tmp Utilization: Features that require constant background writing (like the "Recent Games" list) have been rerouted to volatile RAM (/tmp). This means your "Recents" will reset on reboot, but your SD card's lifespan is drastically extended. (Tip: Use "Collections" for persistent favorites!)
-* Safe Force-Shutdown: Keymon has been updated. Pressing [MENU] + [POWER] forces a hardware-safe shutdown at any time, even if the system freezes, ensuring filesystem integrity.
+* Safe Force-Shutdown: Keymon has been updated. Pressing [MENU]+[POWER] forces a hardware-safe shutdown at any time, even if the system freezes, ensuring filesystem integrity.
 * EXT4 Exclusive: There is no FAT32 support for the ROMs partition. FAT32 is prone to corruption and slows down boot times. We use ext4 strictly for maximum speed and reliability. (Windows users can use third-party tools to access ext4 drives).
 
 ## 🚀 Unleash the RG35XX power!
 
 Most RG35XX distributions have the internal GPU disabled. Not MiaUI 🐱!!!
 * PowerVR SGX544MP Enabled: By activating the GPU and GLES (thx Koriki), we have unlocked massive performance gains.
-* "Free" Hardware Scaling: Scaling calculations have been offloaded from the CPU to the GPU. This results in significantly lower battery consumption and frees up enough processing power to make heavy systems like Nintendo 64 playable.
+* "Free" Hardware Scaling: Scaling calculations have been offloaded from the CPU to the GPU. This results in significantly lower battery consumption and frees up enough processing power to make heavy systems like N64 playable.
 * Lightning Fast Boot: The original Koriki boot sequence was completely rewritten from scratch. From powering on to picking a game, the system now boots in just 3 to 6 seconds (depending on your SD card speed).
 
 <img width="320" alt="n64" src="https://github.com/user-attachments/assets/08d79041-ef70-4def-8c2f-412d99b930f5" /> <img width="320" src="https://github.com/user-attachments/assets/a5a8c74f-135d-4335-9839-a1f108043c48" />
@@ -103,4 +103,4 @@ This project is a personal hobby and a labor of love for a handheld I truly enjo
 
 I've spent over two years refining it so that it works exactly the way I want it to. So user support is not provided and the Issues tab is disabled. Clean Pull Requests are welcome, but for new features or major design changes, please fork the repository and build your own vision.
 
-If you just want to say hi, show off your customized setup, or tell me you're enjoying MiaUI, I'd love to hear from you over on Bluesky: [@dskywalk.bsky.social](https://bsky.app/profile/dskywalk.bsky.social)
+If you just want to say hi, show off your customized setup, or tell me you're enjoying MiaUI, I'd 🥰 to hear from you over on Bluesky: [@dskywalk.bsky.social](https://bsky.app/profile/dskywalk.bsky.social)
