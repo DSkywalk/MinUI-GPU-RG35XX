@@ -1,6 +1,6 @@
 # MinUI
 
-MinUI is a focused custom launcher for the Anbernic RG35XX (and possibly others to come).
+MinUI is a focused custom launcher for the Anbernic RG35XX (old model) using GPU.
 
 <img src="github/minui-main.png" width=320 /> <img src="github/minui-menu-gbc.png" width=320 />  
 See [more screenshots](github/).
