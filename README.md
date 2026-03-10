@@ -4,7 +4,8 @@ MiaUI is the culmination of over 2 years of passionate development. This custom 
 
 This is a heavily optimized, highly opinionated OS designed to maximize performance, unlock new emulators, and above all, protect our precious SD cards.
 
-<img width="320" alt="Support N64" src="https://github.com/user-attachments/assets/67651d41-926a-4601-a65b-350120395f29" /> 
+<img width="320" alt="Boot" src="https://github.com/user-attachments/assets/6acfa92f-edb5-42a1-bd97-49da5717cbd1" /> <img width="320" alt="Support N64" src="https://github.com/user-attachments/assets/67651d41-926a-4601-a65b-350120395f29" /> <img width="320" alt="Emulation" src="https://github.com/user-attachments/assets/328ee5d0-57a5-46dc-b175-cddf92d70374" />
+
   
 
 ## 🛡️ SD Card Preservation
