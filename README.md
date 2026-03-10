@@ -1,8 +1,8 @@
 # 🐱 MiaUI - MinUI + Koriki Hybrid for RG35XX (Old Model)
 
-MiaUI is the culmination of over 2 years of passionate development. This custom firmware was born from a simple goal: to bring the absolute best of MinUI (its elegant, distraction-free interface) and Koriki / Batocera (its raw hardware power) into a single distribution for the RG35XX.
+MiaUI is the culmination of over 2 years of passionate development. This custom firmware was born from a simple goal: to bring the absolute best of [MinUI](https://github.com/shauninman/MinUI-Legacy-RG35XX) (its elegant, distraction-free interface) and [Koriki / Batocera](https://github.com/rg35xx-cfw/Koriki) (its raw hardware power) into a single distribution for the RG35XX legacy models.
 
-This is a heavily optimized, highly opinionated OS designed to maximize performance, unlock new emulators, and above all, protect our precious SD cards.
+This is a heavily optimized, highly opinionated OS designed to maximize performance and unlock new emulators with an uncompromising approach to SD card preservation.
 
 <img width="320" alt="Support N64" src="https://github.com/user-attachments/assets/67651d41-926a-4601-a65b-350120395f29" /> <img width="320" alt="Emulation" src="https://github.com/user-attachments/assets/328ee5d0-57a5-46dc-b175-cddf92d70374" />
   
@@ -70,7 +70,8 @@ Rename your folders or ROMs with specific tags to trigger UI changes:
 <img width="320" alt="DRK" src="https://github.com/user-attachments/assets/14322c8f-415d-4740-8a46-ad5db6ec0427" /> <img width="320" alt="SWAP" src="https://github.com/user-attachments/assets/9cae5065-7a47-4812-b4c9-6bd22450ed10" />
 
 ### 🐱 The Battery Charge Cat
-<img width="320" src="https://github.com/user-attachments/assets/0c9d1438-4df5-437a-96f7-99b27dd9cac1" />
+<img width="320" src="https://github.com/user-attachments/assets/0c9d1438-4df5-437a-96f7-99b27dd9cac1" /> <img width="320" src="https://github.com/user-attachments/assets/4cbedc1c-4c02-4a26-8313-8cf70890cafd" />
+
 
 Because every great OS needs one. TOP FEATURE!
 
@@ -85,6 +86,8 @@ Also I created a...
 ### SD Tool App
 A brand new built-in app allows you to format, manage and create a SWAP in Slot 2 (TF2).
 
+<img width="320" alt="imagen" src="https://github.com/user-attachments/assets/e65b775e-6ccb-41ee-94a7-935d2a37c6a1" />
+
 ## 🧰 Built-in Helper Apps
 
 To make life easier, 4 standalone utilities are included:
@@ -98,6 +101,6 @@ To make life easier, 4 standalone utilities are included:
 ## Contributing & Feedback
 This project is a personal hobby and a labor of love for a handheld I truly enjoy. 
 
-I've spent over two years refining it so that it works exactly the way I want it to. Because of this, I do not provide user support, and the Issues tab is intentionally closed. However, Pull Requests are open! If you have a clean code fix or a cool addition, feel free to submit a PR. If you strongly disagree with a design choice, want a feature I don't care for, or simply want to take the OS in a completely different direction, I highly encourage you to fork the project—just like I did with the original MinUI—and enjoy the amazing process of building your own perfect system.
+I've spent over two years refining it so that it works exactly the way I want it to. So user support is not provided and the Issues tab is disabled. Clean Pull Requests are welcome, but for new features or major design changes, please fork the repository and build your own vision.
 
-If you just want to say hi, show off your customized setup, or tell me you're enjoying MiaUI, I'd love to hear from you over on Bluesky: @dskywalk.bsky.social
+If you just want to say hi, show off your customized setup, or tell me you're enjoying MiaUI, I'd love to hear from you over on Bluesky: [@dskywalk.bsky.social](https://bsky.app/profile/dskywalk.bsky.social)
