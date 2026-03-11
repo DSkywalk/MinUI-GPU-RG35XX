@@ -10,9 +10,9 @@ This is a heavily optimized, highly opinionated OS designed to maximize performa
 ## 🛡️ SD Card Preservation
 The most common point of failure in retro handhelds is SD card corruption. This OS is engineered from the ground up to reduce disk writes to absolute zero wherever possible.
 
-* Read-Only System Architecture: The entire MinUI system and core binaries have been moved to /opt. The goal is to keep the OS partition strictly Read-Only (WIP), leaving the ROMs partition exclusively for your games, saves and user profile.
-* Aggressive /tmp Utilization: Features that require constant background writing (like the "Recent Games" list) have been rerouted to volatile RAM (/tmp). This means your "Recents" will reset on reboot, but your SD card's lifespan is drastically extended. (Tip: Use "Collections" for persistent favorites!)
-* Safe Force-Shutdown: Keymon has been updated. Pressing [MENU]+[POWER] forces a hardware-safe shutdown at any time, even if the system freezes, ensuring filesystem integrity.
+* Read-Only System Architecture: The entire MinUI system and core binaries have been moved to /opt. The goal is to keep the OS partition strictly Read-Only, leaving the ROMs partition exclusively for your games, saves and user profile.
+* Aggressive /tmp Utilization: Features that require constant background writing (like the "Recent Games" list) have been rerouted to volatile RAM (/tmp). This means your "Recents" will reset on reboot, but your SD card's lifespan is extended. (Tip: Use "Collections" for persistent favorites!)
+* Safe Force-Shutdown: Keymon has been updated. Pressing [MENU]+[POWER] forces a hardware-safe shutdown at any time, even if any software you launched freezes, ensuring filesystem integrity.
 * EXT4 Exclusive: There is no FAT32 support for the ROMs partition. FAT32 is prone to corruption and slows down boot times. We use ext4 strictly for maximum speed and reliability. (Windows users can use third-party tools to access ext4 drives).
 
 ## 🚀 Unleash the RG35XX power!
