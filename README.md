@@ -13,7 +13,7 @@ The most common point of failure in retro handhelds is SD card corruption. This 
 * Read-Only System Architecture: The entire MinUI system and core binaries have been moved to /opt. The goal is to keep the OS partition strictly Read-Only, leaving the ROMs partition exclusively for your games, saves and user profile.
 * Aggressive /tmp Utilization: Features that require constant background writing (like the "Recent Games" list) have been rerouted to volatile RAM (/tmp). This means your "Recents" will reset on reboot, but your SD card's lifespan is extended. (Tip: Use "Collections" for persistent favorites!)
 * Safe Force-Shutdown: Keymon has been updated. Pressing [MENU]+[POWER] forces a hardware-safe shutdown at any time, even if any software you launched freezes, ensuring filesystem integrity.
-* EXT4 Exclusive: There is no FAT32 support for the ROMs partition. FAT32 is prone to corruption and slows down boot times. We use ext4 strictly for maximum speed and reliability. (Windows users can use third-party tools to access ext4 drives).
+* EXT4 Exclusive: There is no FAT32 support for the ROMs partition. FAT32 is prone to corruption and slows down boot times. We use ext4 strictly for maximum speed and reliability. (Windows users can [use third-party tools](https://www.diskinternals.com/linux-reader/) to access ext4 drives).
 
 ## 🚀 Unleash the RG35XX power!
 
@@ -70,7 +70,7 @@ Rename your folders or ROMs with specific tags to trigger UI changes:
 <img width="320" alt="DRK" src="https://github.com/user-attachments/assets/14322c8f-415d-4740-8a46-ad5db6ec0427" /> <img width="320" alt="SWAP" src="https://github.com/user-attachments/assets/9cae5065-7a47-4812-b4c9-6bd22450ed10" />
 
 ### 🐱 The Battery Charge Cat
-<img width="320" src="https://github.com/user-attachments/assets/0c9d1438-4df5-437a-96f7-99b27dd9cac1" /> <img width="320" src="https://github.com/user-attachments/assets/4cbedc1c-4c02-4a26-8313-8cf70890cafd" />
+<img width="320" src="https://github.com/user-attachments/assets/4cbedc1c-4c02-4a26-8313-8cf70890cafd" /> <img width="320" src="https://github.com/user-attachments/assets/0c9d1438-4df5-437a-96f7-99b27dd9cac1" />
 
 
 Because every great OS needs one. TOP FEATURE!
