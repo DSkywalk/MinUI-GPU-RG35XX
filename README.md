@@ -45,7 +45,7 @@ Scaling has been entirely rewritten from the original MinUI code to leverage the
 
 ### ⎚ Overlay Support
 
-Added support for image overlays, perfect for handheld consoles (like Game Boy or Game Gear) so you don't have to stare at a black screen when playing.
+Added support for image overlays, [perfect](https://github.com/ourigen/perfect_overlays/) for handheld consoles (like Game Boy or Game Gear) so you don't have to stare at a black screen when playing.
 
 <img width="320" height="480" alt="imagen" src="https://github.com/user-attachments/assets/b3ed6f27-2b39-497c-8592-5ec931d37226" />  
 <img width="320" height="480" alt="imagen" src="https://github.com/user-attachments/assets/d1b41580-3534-4af4-8fb9-dea6fff90e1a" />
